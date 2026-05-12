@@ -1,7 +1,7 @@
-name: Welcome Ajith
+name: Post welcome comment
 on:
   pull_request:
-    types: ubuntu-latest
+    types: [opened]
 permissions:
   pull-requests: write
 jobs:
