@@ -1,0 +1,6 @@
+name: Welcome Ajith
+on:
+  pull_request:
+    types: ubuntu-latest
+permissions:
+  pull-requests: write
